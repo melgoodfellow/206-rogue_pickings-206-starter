@@ -51,7 +51,7 @@ header {
 	align-items: center;
 	width: 100%;
 	text-align: center;
-	flex-wrap: row wrap;
+	flex-flow: row wrap;
 }
 
 header h1 {
@@ -91,7 +91,7 @@ header nav ul li a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: row wrap;
+	flex-flow: row wrap;
 }
 
 .main-image {
