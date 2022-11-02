@@ -57,6 +57,7 @@ header {
 header h1 {
 	margin: 0;
 	padding: 38px 0;
+	border-bottom: solid 3px #77a466;
 }
 header h1 span {
 	color: #77a466;
