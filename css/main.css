@@ -64,7 +64,7 @@ header h1 span {
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 20px 0;
 }
 header nav ul {
 	margin: 0;
@@ -77,7 +77,7 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875em;
-	padding: 15px 10px;
+	padding: 10px 10px;
 	display: inline;
 	display: flex;
 	flex-direction: column;
@@ -170,10 +170,41 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
 }
 footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: 0.875em;
+}
+
+/*Tablets*/
+@media (min-width: 768px) {
+
+.section-one,
+.section-two,
+.section-three {
+	width: 33%;
+	border-top: 1px solid #eee;
+}
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+.reviews,
+.address,
+.section-two h3,
+.section-three h3 {
+	padding: 10px 10px;
+}
+
+.bottom-section{
+	align-items: flex-start;
+}
+
+}
+/* Desktops*/
+@media (min-width: 1200px) {
+
 }
