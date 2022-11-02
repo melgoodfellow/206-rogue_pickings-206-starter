@@ -97,17 +97,11 @@ header nav ul li a{
 	flex-flow: row wrap;
 }
 
-.main-image {
-
-}
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
 }
 
-.main-title {
-
-}
 .main-title h2 {
 	text-align: left;
 	padding: 5px 0;
@@ -182,29 +176,35 @@ footer span {
 /*Tablets*/
 @media (min-width: 768px) {
 
-.section-one,
-.section-two,
-.section-three {
-	width: 33%;
-	border-top: 1px solid #eee;
-}
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-.reviews,
-.address,
-.section-two h3,
-.section-three h3 {
-	padding: 10px 10px;
-}
+	.section-one,
+	.section-two,
+	.section-three {
+		width: 33%;
+		border-top: 1px solid #eee;
+	}
+	.section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+	}
+	.reviews,
+	.address,
+	.section-two h3,
+	.section-three h3 {
+		padding: 10px 10px;
+	}
 
-.bottom-section{
-	align-items: flex-start;
-}
-
+	.bottom-section {
+		align-items: flex-start;
+	}
 }
 /* Desktops*/
 @media (min-width: 1200px) {
-
+	header h1 {
+		border-bottom: none;
+		text-align: left;
+		width: 50%;
+	}
+	header nav ul li {
+		display: inline;
+	}
 }
